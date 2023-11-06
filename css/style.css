@@ -1,0 +1,165 @@
+
+*{
+    --meian-color: #f85c70;
+    text-meian:var(--meian-color);
+}
+.animate.pop {
+    animation-duration: 0.5s;
+    animation-name: animate-pop;
+    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+  }
+  
+  @keyframes animate-pop {
+    0% {
+      opacity: 0;
+      transform: scale(0.5, 0.5);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1, 1);
+    }
+  }
+.text-meian{
+    color: var(--meian-color) !important;
+}
+
+.immg{
+    background-image: url(../imgs/header.jpg);
+    background-position: center center;
+    background-size: cover; 
+    height: 100vh; 
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    
+}
+/* header:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0px;
+z-index: 0 !important;
+    height: 100vh;
+} */
+i{
+    transition: all 1s;
+}
+i:hover{
+    color: #f85c70;
+}
+button{
+    background-color: var(--meian-color);
+    border: none;
+    box-shadow: 10px #f85c714f;
+}
+.img-avtar{
+    transform: translateY(100%);
+    width: 25%;
+    transform: translatex(150%) translateY(-75%);
+    
+}
+.itme-linkhome{
+    transition: all 1s;
+
+}
+.itme-linkhome:hover{
+    color: #f85c70 !important;
+
+}
+
+
+
+
+
+/* home */
+.itme-hr{
+    color: #f85c70;
+    border: 1px solid   #f85c70;
+}
+.item-butt{
+    color:var(--meian-color);
+    border: #f85c70 solid 2px !important;
+    transition: all 1s;
+}
+.item-butt:hover{
+    color:white !important;
+    background: #f85c70 !important;
+    border: white solid 2px !important;
+
+}
+.progress{
+    color: #f85c70 !important;
+}
+
+
+
+/* services */
+.item-serv{
+    transform: translateY(-75%);
+
+}
+
+
+
+/* Portfolio */
+.work-ph{
+    position: relative;
+}
+.work-ph img{
+    transition: all 1s;
+
+}
+
+.work-cont{
+position: absolute;
+top: 0%;
+height: 100%;
+background-color: rgba(212, 22, 22, 0.5);
+opacity: 0;
+transition: all 1s;
+}
+.work-ph:hover .work-cont{
+    opacity:0.9;
+}
+.work-ph:hover img{
+    transform: scale(1.1);
+
+}
+.nav-pills .nav-link{
+    color: black !important;
+}
+
+.nav-pills .nav-link.active{
+    background-color:#f85c70 !important ;
+    color: white!important;
+
+}
+
+
+.itme-p{
+    position: relative;
+}
+.itme-pa{
+    position: absolute;
+    width: 100%;
+    top: 20%;
+
+}
+#btnup{
+    background-color: #f85c70 !important;
+    position: fixed;
+    display: none;
+    bottom: 30px;
+     right : 30px;
+    z-index: 999;
+    transition: all 2s;
+
+}
+.iamchang{
+    transition: all 5s;
+}
+
+footer{
+    
+}
